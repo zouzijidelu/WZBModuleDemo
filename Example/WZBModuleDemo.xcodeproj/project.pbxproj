@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8BC79EA524EA51D80019CE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC79EA424EA51D80019CE5C /* AppDelegate.swift */; };
-		8BC79EA724EA51D80019CE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC79EA624EA51D80019CE5C /* SceneDelegate.swift */; };
 		8BC79EA924EA51D80019CE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC79EA824EA51D80019CE5C /* ViewController.swift */; };
 		8BC79EAC24EA51D80019CE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC79EAA24EA51D80019CE5C /* Main.storyboard */; };
 		8BC79EAE24EA51DC0019CE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC79EAD24EA51DC0019CE5C /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		8BC79EA124EA51D80019CE5C /* WZBModuleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZBModuleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC79EA424EA51D80019CE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BC79EA624EA51D80019CE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8BC79EA824EA51D80019CE5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8BC79EAB24EA51D80019CE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BC79EAD24EA51DC0019CE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				8BC79EA424EA51D80019CE5C /* AppDelegate.swift */,
-				8BC79EA624EA51D80019CE5C /* SceneDelegate.swift */,
 				8BC79EA824EA51D80019CE5C /* ViewController.swift */,
 				8BC79EAA24EA51D80019CE5C /* Main.storyboard */,
 				8BC79EAD24EA51DC0019CE5C /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				8BC79EA924EA51D80019CE5C /* ViewController.swift in Sources */,
 				8BC79EA524EA51D80019CE5C /* AppDelegate.swift in Sources */,
-				8BC79EA724EA51D80019CE5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = WZBModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 29HA8N9RQ5;
 				INFOPLIST_FILE = WZBModuleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
